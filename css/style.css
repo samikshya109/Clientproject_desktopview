@@ -95,7 +95,7 @@ nav ul li a.active {
 }
 
 /* Responsive nav layout */
-@media (min-width: 768px) {
+@media (min-width: 900px) {
     nav ul {
         flex-direction: row;
         justify-content: flex-start;
@@ -162,6 +162,22 @@ ul li {
     margin: 1rem 0;
     border-radius: 8px;
 }
+  
+  /* Desktop refinements */
+  @media (min-width: 900px) {
+    main {
+      padding: 3rem 6rem;
+    }
+  
+    .error-container {
+      padding: 2rem;
+    }
+  
+    nav ul li a {
+      font-size: 1rem;
+      padding: 6px 16px;
+    }
+  }
 
 footer {
     background: var(--umich-blue);

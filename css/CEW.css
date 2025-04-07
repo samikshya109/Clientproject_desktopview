@@ -1,3 +1,4 @@
+
 :root {
     --umich-blue: #00274C;
     --umich-maize: #FFCB05;
@@ -25,10 +26,9 @@ header {
 }
 
 header img {
-    max-width: 400px;
+    max-width: 150px;
     display: block;
     margin: 0 0 1rem 0;
-    padding-top: 2rem;
 }
 
 
