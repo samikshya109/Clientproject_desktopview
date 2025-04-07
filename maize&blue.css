@@ -51,6 +51,8 @@ header img {
 
 /* ===== Navigation Styles ===== */
 nav {
+    display: grid;
+    /* position: absolute; */
     top: 0;
     right: 0;
     background-color: var(--umich-blue);
@@ -93,7 +95,7 @@ nav ul li a.active {
 }
 
 /* Responsive nav layout */
-@media (min-width: 768px) {
+@media (min-width: 900px) {
     nav ul {
         flex-direction: row;
         justify-content: flex-start;
@@ -103,6 +105,7 @@ nav ul li a.active {
         margin: 0 1rem;
     }
 }
+
 
 
 main {
